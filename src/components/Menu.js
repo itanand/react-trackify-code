@@ -23,21 +23,21 @@ const Menu = () => {
           </div>
           {/* Sidebar Menu */}
           <nav className="mt-2">
-            <ul className="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-              <li className="nav-item has-treeview menu-open">
+            <ul className="nav  nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+              <li className="nav-item ">
                 <a href="#" className="nav-link active">
                   <i className="nav-icon fas fa-tachometer-alt" />
                   <p>
-                    Dashboard
-                    <i className="right fas fa-angle-left" />
+                    <Link to="/">
+                      Dashboard
+                    </Link>
                   </p>
                 </a>
               </li>
             </ul>
-           <ul>
-           <li>
+            <ul className="nav ">
+              <li className="nav-item">
                 <a href="#" className="nav-link active">
-
                   <p>
                     <Link to="/myprofile">
                       My Profile
@@ -45,7 +45,52 @@ const Menu = () => {
                   </p>
                 </a>
               </li>
-           </ul>
+            </ul>
+            <ul className="nav ">
+              <li className="nav-item">
+                <a href="#" className="nav-link active">
+                  <p>
+                    <Link to="/myprofile">
+                      Registerd User
+                    </Link>
+                  </p>
+                </a>
+              </li>
+            </ul>
+            <ul className="nav ">
+              <li className="nav-item">
+                <a href="#" className="nav-link active">
+                  <p>
+                    <Link to="/myprofile">
+                      Referrals
+                    </Link>
+                  </p>
+                </a>
+              </li>
+            </ul>
+            <ul className="nav ">
+              <li className="nav-item">
+                <a href="#" className="nav-link active">
+                  <p>
+                    <Link to="/myprofile">
+                      My Profile
+                    </Link>
+                  </p>
+                </a>
+              </li>
+            </ul>
+            <ul className="nav ">
+              <li className="nav-item">
+                <a href="#" className="nav-link active">
+                  <p>
+                    <Link to="/myprofile">
+                      My Profile
+                    </Link>
+                  </p>
+                </a>
+              </li>
+            </ul>
+
 
           </nav>
         </div>
