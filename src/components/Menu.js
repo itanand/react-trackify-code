@@ -25,7 +25,7 @@ const Menu = () => {
           <nav className="mt-2">
             <ul className="nav  nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
               <li className="nav-item ">
-                <a href="#" className="nav-link active">
+                <a href="/" className="nav-link active">
                   <i className="nav-icon fas fa-tachometer-alt" />
                   <p>
                     <Link to="/">
@@ -34,10 +34,9 @@ const Menu = () => {
                   </p>
                 </a>
               </li>
-            </ul>
-            <ul className="nav ">
               <li className="nav-item">
-                <a href="#" className="nav-link active">
+              <a class="nav-link">
+                  <i class="nav-icon far fa-user"></i>
                   <p>
                     <Link to="/myprofile">
                       My Profile
@@ -45,53 +44,37 @@ const Menu = () => {
                   </p>
                 </a>
               </li>
-            </ul>
-            <ul className="nav ">
-              <li className="nav-item">
-                <a href="#" className="nav-link active">
+              <li class="nav-item">
+                <a class="nav-link">
+                  <i class="nav-icon fas fa-users"></i>
                   <p>
-                    <Link to="/myprofile">
-                      Registerd User
+                  <Link to="/registerred">
+                    Registered User
+                  </Link>
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="role.php" class="nav-link">
+                  <i class="nav-icon fas fa-cog"></i>
+                  <p>
+                    <Link to="/roles">
+                      Roles
                     </Link>
                   </p>
                 </a>
               </li>
-            </ul>
-            <ul className="nav ">
-              <li className="nav-item">
-                <a href="#" className="nav-link active">
+              <li class="nav-item">
+                <a href="referrals.php" class="nav-link">
+                  <i class="nav-icon fas fa-share"></i>
                   <p>
-                    <Link to="/myprofile">
-                      Referrals
-                    </Link>
+                  <Link to="/referrals">
+                    Referrals
+                  </Link>
                   </p>
                 </a>
               </li>
             </ul>
-            <ul className="nav ">
-              <li className="nav-item">
-                <a href="#" className="nav-link active">
-                  <p>
-                    <Link to="/myprofile">
-                      My Profile
-                    </Link>
-                  </p>
-                </a>
-              </li>
-            </ul>
-            <ul className="nav ">
-              <li className="nav-item">
-                <a href="#" className="nav-link active">
-                  <p>
-                    <Link to="/myprofile">
-                      My Profile
-                    </Link>
-                  </p>
-                </a>
-              </li>
-            </ul>
-
-
           </nav>
         </div>
       </aside>
